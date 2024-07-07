@@ -86,7 +86,7 @@ M.setup = function()
 
 		Special = { fg = colors.wisteria },
 		SpecialChar = { link = "String" },
-		SpecialComment = { fg = colors.green },
+		SpecialComment = { bold = config.bold, fg = colors.wisteria },
 		Todo = { fg = colors.bg, bg = colors.green },
 		MatchParen = { bg = colors.bg_4 },
 		-- Underlined = {},
