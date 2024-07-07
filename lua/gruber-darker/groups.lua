@@ -14,7 +14,7 @@ M.colors = {
 	bg_4 = "#52494e",
 	red_1 = "#c73c3f",
 	red = "#f43841",
-	red_1 = "#ff4f58",
+	red_1p = "#ff4f58",
 	green = "#73c936",
 	yellow = "#ffdd33",
 	brown = "#cc8c3c",
@@ -124,7 +124,7 @@ M.setup = function()
 		-- TermCursorNC = {},
 
 		DiffText = { link = "Normal" },
-		DiffDelete = { fg = colors.red_1 },
+		DiffDelete = { fg = colors.red_1p },
 		DiffAdd = { fg = colors.green },
 		DiffChange = { fg = colors.yellow },
 
