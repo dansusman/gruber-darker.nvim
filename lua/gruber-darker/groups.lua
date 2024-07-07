@@ -38,6 +38,7 @@ M.setup = function()
 		Normal = { bg = colors.bg, fg = colors.fg },
 		NormalFloat = { link = "Normal" },
 		NonText = { link = "Normal" },
+		Whitespace = { fg = colors.bg_4 bg = colors.none }
 
 		FloatBorder = { fg = colors.fg },
 
