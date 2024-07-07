@@ -83,10 +83,10 @@ M.setup = function()
 		-- Structure = { },
 		-- StorageClass = { },
 
-		Special = { link = "Normal" },
+		Special = { fg = colors.wisteria },
 		SpecialChar = { link = "String" },
 		SpecialComment = { fg = colors.green },
-		Todo = { fg = colors.wisteria },
+		Todo = { fg = colors.bg, bg = colors.green },
 		MatchParen = { bg = colors.bg_4 },
 		-- Underlined = {},
 
